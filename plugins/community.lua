@@ -12,6 +12,23 @@ return {
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.project.neoconf-nvim" },
   { import = "astrocommunity.completion.copilot-lua" },
+  { import = "astrocommunity.markdown-and-latex.glow-nvim" },
+  {
+    -- further customize the options set by the community
+    "copilot.lua",
+    opts = {
+      suggestion = {
+        keymap = {
+          accept = "<C-l>",
+          accept_word = false,
+          accept_line = false,
+          next = "<C-.>",
+          prev = "<C-,>",
+          dismiss = "<C/>",
+        },
+      },
+    },
+  },
   {
     -- further customize the options set by the community
     "catppuccin",
@@ -30,6 +47,5 @@ return {
       },
     },
   },
-
-
 }
+-- pca
