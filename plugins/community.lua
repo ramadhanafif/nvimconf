@@ -6,13 +6,13 @@ return {
 
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.everforest" },
-  { import = "astrocommunity.pack.python" },
-  { import = "astrocommunity.pack.markdown" },
-  { import = "astrocommunity.pack.cmake" },
+  -- { import = "astrocommunity.pack.python" },
+  --{ import = "astrocommunity.pack.markdown" },
+  -- { import = "astrocommunity.pack.cmake" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
-  { import = "astrocommunity.project.neoconf-nvim" },
+  -- { import = "astrocommunity.project.neoconf-nvim" },
   { import = "astrocommunity.completion.copilot-lua" },
-  { import = "astrocommunity.markdown-and-latex.glow-nvim" },
+  --{ import = "astrocommunity.markdown-and-latex.glow-nvim" },
   {
     -- further customize the options set by the community
     "copilot.lua",
