@@ -19,8 +19,8 @@ return {
   -- Set colorscheme to use
   -- colorscheme = "catppuccin",
   colorscheme = "everforest",
-  -- Load neovide.lua
-  -- require("neovide"),
+
+  
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
     virtual_text = true,
