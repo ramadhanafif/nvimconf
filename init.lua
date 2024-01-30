@@ -17,9 +17,9 @@ return {
     },
   },
   -- Set colorscheme to use
-  -- colorscheme = "catppuccin",
   colorscheme = "everforest",
-
+  -- colorscheme = "catppuccin",
+  signcolumn="yes", -- "yes" or "auto" or "no"
   
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
