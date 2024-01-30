@@ -6,6 +6,8 @@
 return {
   -- first key is the mode
   n = {
+    ["C`"] = { "<cmd>ToggleTerm size=10 direction=horizontal<cr>", desc = "ToggleTerm horizontal split" },
+    ["<leader>e"] = { "<cmd>Neotree toggle filesystem reveal<cr>", desc = "Neotree current dir" },
     -- second key is the lefthand side of the map
     -- mappings seen under group name "Buffer"
     ["<leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
@@ -31,7 +33,6 @@ return {
       function() require("astronvim.utils.buffer").nav(-(vim.v.count > 0 and vim.v.count or 1)) end,
       desc = "Previous buffer"
     },
-    ["C-`"] = { "<cmd>ToggleTerm size=10 direction=horizontal<cr>", desc = "ToggleTerm horizontal split" }
   },
   t = {
     -- setting a mapping to false will disable it
